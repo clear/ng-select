@@ -302,9 +302,9 @@ export class NgSelectComponent implements OnDestroy, OnChanges, AfterViewInit, C
             case KeyCode.ArrowUp:
                 this._handleArrowUp($event);
                 break;
-            case KeyCode.Space:
-                this._handleSpace($event);
-                break;
+            // case KeyCode.Space:
+            //     this._handleSpace($event);
+            //     break;
             case KeyCode.Enter:
                 this._handleEnter($event);
                 break;
