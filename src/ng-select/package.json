@@ -1,10 +1,17 @@
 {
-  "name": "@ng-select/ng-select",
-  "version": "3.2.0",
+  "name": "@clear/ng-select",
+  "version": "7.1.1",
   "description": "Angular ng-select - All in One UI Select, Multiselect and Autocomplete",
   "author": "@ng-select/ng-select",
   "license": "MIT",
-  "repository": "ng-select/ng-select",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:clear/ng-select.git"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
+  },
   "engines": {
     "node": ">= 12.14.0",
     "npm": ">= 6.0.0"
@@ -25,5 +32,13 @@
   },
   "dependencies": {
     "tslib": "^2.0.0"
-  }
+  },
+  "main": "bundles/clear-ng-select.umd.js",
+  "module": "fesm2015/clear-ng-select.js",
+  "es2015": "fesm2015/clear-ng-select.js",
+  "esm2015": "esm2015/clear-ng-select.js",
+  "fesm2015": "fesm2015/clear-ng-select.js",
+  "typings": "clear-ng-select.d.ts",
+  "metadata": "clear-ng-select.metadata.json",
+  "sideEffects": false
 }
